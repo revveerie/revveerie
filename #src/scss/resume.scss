@@ -1,11 +1,20 @@
 .resume {
     &__skill-row {
         display: flex;
+        @media(max-width: 600px) {
+			flex-wrap: wrap;
+		}
     }
     &__skill-column {
         flex: 0 1 25%;
+        @media(max-width: 600px) {
+			flex: 0 1 50%
+		}
         &_language {
             flex: 0 1 60%;
+            @media(max-width: 600px) {
+                flex: 0 1 100%
+            }
         }
     }
     &__skill-item {
