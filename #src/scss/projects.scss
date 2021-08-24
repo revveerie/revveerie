@@ -4,6 +4,11 @@
             align-items: center;
         }
     }
+    &__column {
+        &_m {
+            margin: 0 0 6% 0;
+        }
+    }
     &__column-content-img {
         filter: grayscale(0);
         opacity: 1;
