@@ -703,6 +703,56 @@ img {
   opacity: 1;
 }
 
+.portfolio__row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.portfolio__column-title {
+  margin: 0 0 3% 0;
+}
+
+.section__column-subtitle {
+  opacity: 0.5;
+}
+
+.section__column-subtitle-text {
+  text-align: right;
+}
+
+.section__column-content-img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  opacity: 0.5;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.section__column-content-img a {
+  display: block;
+}
+
+.section__column-content-img img {
+  width: 100%;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.section__column-content-img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  opacity: 1;
+}
+
 .projects__row_demo {
   -webkit-box-align: center;
       -ms-flex-align: center;

@@ -1,0 +1,38 @@
+.portfolio {
+    &__row {
+        align-items: center;
+    }
+
+    &__column {
+        flex: 0 1 50%;
+    }
+
+    &__column-title {
+        margin: 0 0 3% 0;
+    }
+}
+.section {
+    &__column-subtitle {
+        opacity: 0.5;
+    }
+    &__column-subtitle-text {
+        text-align: right;
+    }
+
+    &__column-content-img {
+        filter: grayscale(1);
+        opacity: 0.5;
+        transition: 0.7s;
+        a {
+            display: block;
+        }
+        img {
+            width: 100%;
+            transition: 1s;
+        }
+        &:hover {
+            filter: grayscale(0);
+            opacity: 1;
+        }
+    }
+}
