@@ -14,9 +14,15 @@
 .section {
     &__column-subtitle {
         opacity: 0.5;
+        @media(max-width: 800px) {
+            margin: 0 0 5% 0;
+        }
     }
     &__column-subtitle-text {
         text-align: right;
+        @media(max-width: 800px) {
+            text-align: center;
+        }
     }
 
     &__column-content-img {

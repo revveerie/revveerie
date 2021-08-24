@@ -156,10 +156,14 @@ img {
 			text-align: center;
 			font-size: 40px;
 		}
-		@media(max-width: 500px) {
+		@media(max-width: 533px) {
 			font-size: 35px;
 		}
+		@media(max-width: 533px) {
+			font-size: 30px;
+		}
 	}
+	
 	&__column-content-text {
 		line-height: 40px;
 		@media(max-width: 600px) {
