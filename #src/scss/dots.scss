@@ -1,0 +1,87 @@
+.animated-background {
+	&__wrapper {
+		overflow-x: hidden;
+		overflow-y: hidden;
+		position: absolute;
+		left: 0px;
+		z-index: 0;
+		width: 100%;
+		isolation: isolate;
+	}
+}
+.dot {
+	--size: 900px;
+	display: none;
+	position: fixed;
+	left: calc(var(--size) / 3 * -1);
+	top: calc(var(--size) / 3 * -1);
+	width: var(--size);
+	height: var(--size);
+	mix-blend-mode: soft-light;
+	border-radius: var(--size);
+	filter: blur(calc(var(--size) / 6));
+	animation: dotAnimation ease-in-out 25s infinite;
+	will-change: transform;
+	&_one {
+		background: $mainPink;
+	}
+	&_two {
+		background: $mainBlue;
+		animation-delay: -7s;
+	}
+	&_three {
+		background: $mainGreen;
+		animation-delay: -14s;
+	}
+	@media(max-width: 480px) {
+		--size: 500px;
+	}
+	@media(max-width: 360px) {
+		--size: 400px;
+	}
+	@media(max-width: 320px) {
+		--size: 300px;
+	}
+}
+
+@supports (mix-blend-mode: soft-light) and (filter: blur(1px)) {
+	.animated-background__wrapper {
+		background: none;
+	}
+	.dot {
+		display: block;
+	}
+}
+
+@keyframes dotAnimation {
+	0% {
+		transform: translate(0, 0);
+	}
+	33% {
+		transform: translate(calc(var(--size) / 1.2), 0);
+	}
+	66% {
+		transform: translate(0, calc(var(--size) / 1.2));
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes dotAnimationPulse {
+	0% {
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.4);
+	}
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1.7);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
