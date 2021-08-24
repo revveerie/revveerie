@@ -782,6 +782,44 @@ img {
   line-height: 40px;
 }
 
+.contacts__column_left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
+}
+
+.contacts__column_right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+
+.contacts__column-content-email {
+  color: #ffffff;
+  line-height: 40px;
+  opacity: 0.5;
+  -webkit-transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+  -o-transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+  transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+}
+
+.contacts__column-content-email:hover {
+  opacity: 1;
+}
+
+.contacts__column-content-phone {
+  color: #ffffff;
+  line-height: 40px;
+  opacity: 0.5;
+  -webkit-transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+  -o-transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+  transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+}
+
+.contacts__column-content-phone:hover {
+  opacity: 1;
+}
+
 .page {
   opacity: 1;
   visibility: visible;
