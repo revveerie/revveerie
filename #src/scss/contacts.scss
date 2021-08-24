@@ -8,6 +8,16 @@
             flex: 0 1 40%;
         }
     }
+    &__column-content-text {
+        @media(max-width: 801px) {
+            text-align: center;
+        }
+    }
+    &__column-content-link {
+        @media(max-width: 801px) {
+            text-align: center;
+        }
+    }
     &__column-content-email {
         color: #ffffff;
         line-height: 40px;

@@ -239,9 +239,14 @@ img {
 	}
 	&__network-wrapper {
         display: flex;
+		@media(max-width: 801px) {
+            justify-content: center;
+        }
     }
     &__network {
-        margin: 0 10% 0 0
+		&:not(:last-child) {
+			margin: 0 10% 0 0
+		}
     }
     &__network-link {
         display: block;
@@ -251,6 +256,15 @@ img {
 
         i {
             font-size: 40px;
+			@media(max-width: 600px) {
+				font-size: 35px;
+			}
+			@media(max-width: 533px) {
+				font-size: 30px;
+			}
+			@media(max-width: 480px) {
+				font-size: 25px;
+			}
         }
 		&:hover {
 			opacity: 1;
