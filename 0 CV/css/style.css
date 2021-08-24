@@ -993,6 +993,10 @@ img {
     --size: 500px;
   }
 
+  .menu__link {
+    font-size: 35px;
+  }
+
   .main-screen__title-text {
     font-size: 55px;
   }
@@ -1005,6 +1009,10 @@ img {
 @media (max-width: 360px) {
   .dot {
     --size: 400px;
+  }
+
+  .menu__link {
+    font-size: 30px;
   }
 
   .main-screen__title-text {
