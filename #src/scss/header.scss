@@ -1,0 +1,93 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .4s;
+	transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+    &._lock {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.menu {
+    &__body {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: auto;
+        opacity: 0;
+        visibility: hidden;
+        transition-delay: .4s;
+        transition: 0.7s cubic-bezier(.79,.36,.29,1.03);
+        &._menu-active {
+            opacity: 1 ;
+            visibility: visible;
+        }
+    }
+    &__item {
+        margin: 0 0 20% 0;
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 40px;
+    }
+}
+.icon-menu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 18px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0.5;
+    transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
+    &:hover {
+        opacity: 1;
+    }
+    span {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        transition: 0.7s cubic-bezier(.79,.36,.29,1.03);
+        &:first-child {
+            top: 0;
+        }
+        &:nth-child(2) {
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+        &:last-child {
+            bottom: 0;
+        }
+    }
+    &._menu-active {
+        opacity: 1;
+        span {
+            transition: 0.7s cubic-bezier(.79,.36,.29,1.03);
+            &:first-child {
+                transform: rotate(-45deg);
+                top: 40%;
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:last-child {
+                transform: rotate(45deg);
+                bottom: 50%;
+            }
+        }
+    }
+}
+
