@@ -263,34 +263,19 @@ img {
 .section {
   position: relative;
   padding: 5% 0;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .section__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: fixed;
-  top: 50%;
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
-  -webkit-transform: rotate(180deg) translate(0, 50%);
-      -ms-transform: rotate(180deg) translate(0, 50%);
-          transform: rotate(180deg) translate(0, 50%);
+  display: block;
+  position: relative;
+  -webkit-writing-mode: horizontal-tb;
+      -ms-writing-mode: lr-tb;
+          writing-mode: horizontal-tb;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  text-align: center;
+  margin: 0 0 5% 0;
 }
 
 .section__title-text {
@@ -305,10 +290,6 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-}
-
-.section__content-wrapper {
-  width: 75%;
 }
 
 .section__row {
@@ -332,10 +313,19 @@ img {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 60%;
           flex: 0 1 60%;
+  padding: 0 0 3% 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.section__column_right_m {
+  padding: 0;
+  border-bottom: none;
 }
 
 .section__column-item:not(:last-child) {
   margin: 0 0 3% 0;
+  padding: 0 0 3% 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .section__column-title-text {
@@ -344,7 +334,7 @@ img {
 }
 
 .section__column-content-text {
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .section__column-row {
@@ -375,7 +365,7 @@ img {
 
 .section__item-organization {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 .section__item-period {
@@ -390,13 +380,14 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10% 0 0 0;
+  padding: 7% 0 0 0;
 }
 
 .section__link-text {
   color: #fff;
-  letter-spacing: 30px;
+  letter-spacing: 25px;
   opacity: 0.5;
+  font-size: 22px;
 }
 
 .section__network-wrapper {
@@ -815,7 +806,7 @@ img {
 
 .resume__skill-text {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .resume__skill-level {
@@ -837,6 +828,10 @@ img {
 
 .resume__skill-link:hover {
   opacity: 1;
+}
+
+.portfolio {
+  display: none;
 }
 
 .portfolio__row {
@@ -864,9 +859,7 @@ img {
 }
 
 .section__column-content-img {
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
-  opacity: 0.5;
+  opacity: 0.8;
   -webkit-transition: 0.7s;
   -o-transition: 0.7s;
   transition: 0.7s;
@@ -881,12 +874,6 @@ img {
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-}
-
-.section__column-content-img:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-  opacity: 1;
 }
 
 .projects__row_demo {
@@ -920,6 +907,10 @@ img {
 .projects__stack-text {
   font-size: 18px;
   line-height: 40px;
+}
+
+.contacts {
+  display: none;
 }
 
 .contacts__column_left {
@@ -977,27 +968,10 @@ img {
 }
 
 @media (max-width: 1280px) {
-  .section__title {
-    display: block;
-    position: relative;
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-    -webkit-transform: none;
-        -ms-transform: none;
-            transform: none;
-    text-align: center;
-    margin: 0 0 5% 0;
-  }
-
   .section__content {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-  }
-
-  .section__content-wrapper {
-    width: 100%;
   }
 }
 
@@ -1049,11 +1023,15 @@ img {
   }
 
   .section__row-item_left {
-    margin: 0 0 1% 0;
+    margin: 0 0 0 0;
   }
 
   .section__row-item_right {
     text-align: left;
+  }
+
+  .section__link {
+    padding: 10% 0 0 0;
   }
 
   .section__network-wrapper {
@@ -1084,16 +1062,20 @@ img {
 @media (max-width: 768px) {
   .section__item-organization {
     font-size: 27px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 625px) {
+  .section__link-text {
+    font-size: 18px;
+    letter-spacing: 22px;
   }
 }
 
 @media (max-width: 600px) {
   .section__column-content-text {
     line-height: 30px;
-  }
-
-  .section__link-text {
-    letter-spacing: 25px;
   }
 
   .section__network-link i {
@@ -1141,8 +1123,16 @@ img {
 }
 
 @media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+
+  .section {
+    padding: 10% 0;
+  }
+
   .section__title {
-    margin: 0 0 15% 0;
+    margin: 0 0 10% 0;
   }
 
   .section__title-text {
@@ -1150,15 +1140,24 @@ img {
   }
 
   .section__row:not(:last-child) {
-    margin: 0 0 20% 0;
+    margin: 0 0 10% 0;
   }
 
   .section__column-title {
     margin: 0 0 6% 0;
   }
 
+  .section__column-content-text {
+    line-height: 20px;
+  }
+
   .section__item-organization {
-    line-height: 35px;
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  .section__item-period {
+    font-size: 10px;
   }
 
   .section__link-text {
@@ -1185,14 +1184,21 @@ img {
   .main-screen__subtitle-text {
     font-size: 20px;
   }
+
+  .resume__skill-text {
+    font-size: 16px;
+    line-height: 25px;
+  }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 362px) {
   .section__link-text {
     letter-spacing: 7px;
     font-size: 14px;
   }
+}
 
+@media (max-width: 360px) {
   .dot {
     --size: 400px;
   }
@@ -1213,15 +1219,6 @@ img {
 @media (max-width: 320px) {
   .section__title-text {
     font-size: 40px;
-  }
-
-  .section__column-content-text {
-    line-height: 25px;
-  }
-
-  .section__item-organization {
-    font-size: 25px;
-    line-height: 30px;
   }
 
   .dot {
@@ -1284,6 +1281,14 @@ img {
 
 }
 
+ @media (max-width: 625px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
  @media (max-width: 600px){
 
 @supports (-webkit-appearance:none){
@@ -1301,6 +1306,14 @@ img {
 }
 
  @media (max-width: 480px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 362px){
 
 @supports (-webkit-appearance:none){
 

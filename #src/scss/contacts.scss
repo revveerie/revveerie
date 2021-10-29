@@ -1,4 +1,8 @@
 .contacts {
+    display: none;
+    &__title {
+    }
+
     &__column {
         &_left {
             flex: 0 1 60%;

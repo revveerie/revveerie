@@ -1,4 +1,8 @@
 .resume {
+
+    &__title {
+    }
+
     &__skill-row {
         display: flex;
         @media(max-width: 600px) {
@@ -24,7 +28,11 @@
     }
     &__skill-text {
         font-size: 18px;
-        line-height: 40px;
+        line-height: 30px;
+        @media (max-width: 480px) {
+            font-size: 16px;
+            line-height: 25px;
+        }
     }
     &__skill-level {
         opacity: 0.5;
