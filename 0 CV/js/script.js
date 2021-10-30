@@ -21,9 +21,6 @@ iconMenu.onclick = function() {
 	body.classList.toggle('_lock');
 }
 
-//TITLE
-
-
 
 
 
