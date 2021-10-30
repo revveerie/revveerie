@@ -1,16 +1,15 @@
 .contacts {
-    display: none;
     &__title {
     }
 
     &__column {
-        &_left {
-            flex: 0 1 60%;
-        }
+        // &_left {
+        //     flex: 0 1 60%;
+        // }
 
-        &_right {
-            flex: 0 1 40%;
-        }
+        // &_right {
+        //     flex: 0 1 40%;
+        // }
     }
     &__column-content-text {
         @media(max-width: 801px) {
