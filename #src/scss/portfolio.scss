@@ -56,13 +56,13 @@
 
     &__column-content-img {
         opacity: 0.8;
-        transition: 0.7s;
+        transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
         a {
             display: block;
         }
         img {
             width: 100%;
-            transition: 1s;
+            transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
         }
     }
 }
@@ -165,7 +165,7 @@
         position: relative;
         overflow: hidden;
         img {
-            transition: 400ms;
+            transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
         }
         &::before {
             content: '';

@@ -238,7 +238,7 @@ img {
 		letter-spacing: 25px;
 		opacity: 0.5;
 		font-size: 22px;
-		transition: 400ms;
+		transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
 		&:hover {
 			opacity: 1;
 		}
@@ -270,7 +270,7 @@ img {
         display: block;
 		color: #ffffff;
         opacity: 0.5;
-		transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+		transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
 
         i {
             font-size: 40px;
@@ -302,6 +302,7 @@ img {
 @import "projects";
 @import "contacts";
 @import "footer";
+@import "popup";
 //STYLES
 //-----------------------------------------------------
 
