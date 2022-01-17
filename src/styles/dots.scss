@@ -1,0 +1,141 @@
+.animated-background {
+  &__wrapper {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    isolation: isolate;
+  }
+}
+.dot {
+  --size: 900px;
+  display: none;
+  position: fixed;
+  left: calc(var(--size) / 3 * -1);
+  top: calc(var(--size) / 3 * -1);
+  width: var(--size);
+  height: var(--size);
+  mix-blend-mode: soft-light;
+  border-radius: var(--size);
+  filter: blur(calc(var(--size) / 6));
+  animation: dotAnimation ease-in-out 25s infinite;
+  will-change: transform;
+  &_one {
+    background: $mainPink;
+    transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
+    &._museum {
+      background: #772d22;
+    }
+    &._space {
+      background: #2b1d5a;
+    }
+    &._music {
+      background: #2b4f60;
+    }
+    &._photo {
+      background: #c6cccc;
+    }
+    &._alarm {
+      background: #e2b8ac;
+    }
+    &._weather {
+      background: #dad37b;
+    }
+  }
+  &_two {
+    background: $mainBlue;
+    transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
+    animation-delay: -7s;
+    &._museum {
+      background: #edeef3;
+    }
+    &._space {
+      background: #4c1c46;
+    }
+    &._music {
+      background: #bdc7c9;
+    }
+    &._photo {
+      background: #444354;
+    }
+    &._alarm {
+      background: #919f89;
+    }
+    &._weather {
+      background: #b2191c;
+    }
+  }
+  &_three {
+    background: $mainGreen;
+    transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
+    animation-delay: -14s;
+    &._museum {
+      background: #dccfbb;
+    }
+    &._space {
+      background: #392b3b;
+    }
+    &._music {
+      background: #ead3cb;
+    }
+    &._photo {
+      background: #645954;
+    }
+    &._alarm {
+      background: #cddad8;
+    }
+    &._weather {
+      background: #dfeaec;
+    }
+  }
+  @media (max-width: 480px) {
+    --size: 500px;
+  }
+  @media (max-width: 360px) {
+    --size: 400px;
+  }
+  @media (max-width: 320px) {
+    --size: 300px;
+  }
+}
+@supports (mix-blend-mode: soft-light) and (filter: blur(1px)) {
+  .animated-background__wrapper {
+    background: none;
+  }
+  .dot {
+    display: block;
+  }
+}
+@keyframes dotAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(calc(var(--size) / 1.2), 0);
+  }
+  66% {
+    transform: translate(0, calc(var(--size) / 1.2));
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes dotAnimationPulse {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
