@@ -9,12 +9,6 @@ import Music from "./assets/images/music_pr.webp";
 import Space from "./assets/images/space_pr.jpg";
 import Weather from "./assets/images/weather_pr.png";
 import Photo from "./assets/images/photo_pr.jpg";
-import AlarmGif from "./assets/images/alarm.gif";
-import MuseumGif from "./assets/images/museum.gif";
-import MusicGif from "./assets/images/music.gif";
-import SpaceGif from "./assets/images/space.gif";
-import WeatherGif from "./assets/images/weather.gif";
-import PhotoGif from "./assets/images/photo.gif";
 
 const app = document.getElementById("app");
 
@@ -260,7 +254,7 @@ app.innerHTML = `
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
                                                 <p class="resume__item-period section__item-period content__item-period">
-                                                    may - december 2021
+                                                    may 2021 - january 2022
                                                 </p>
                                             </div>
                                         </div>
@@ -269,6 +263,7 @@ app.innerHTML = `
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
                                                     Front-end development course
                                                 </p>
+                                                <a href="https://drive.google.com/file/d/1uTGEBPtdflUw_zA2vtZ0mRseDJGg9w7O/view" class="sertificate-link" target="_blank">(see sertificate)</a>
                                             </div>
                                         </div>
                                     </div>
@@ -475,7 +470,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${MuseumGif}" alt="">
+                            <img src="${Museum}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -626,7 +621,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${SpaceGif}" alt="">
+                            <img src="${Space}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -777,7 +772,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${MusicGif}" alt="">
+                            <img src="${Music}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -928,7 +923,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${PhotoGif}" alt="">
+                            <img src="${Photo}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -1079,7 +1074,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${AlarmGif}" alt="">
+                            <img src="${Alarm}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -1230,7 +1225,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${WeatherGif}" alt="">
+                            <img src="${Weather}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
