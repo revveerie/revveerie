@@ -72,8 +72,7 @@ app.innerHTML = `
                                 <div class="resume__column section__column section__column_right">
                                     <div class="resume__column-content section__column-content">
                                         <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur landitiis accusantium 
-                                            reiciendis voluptas ad, illo quas animi illum reprehenderit non deleniti.
+                                            My name's Victoria and I'm a front-end developer. I've been working as a developer for approximately one year. My favourite pastime is coming up with fresh and interesting projects that are both functional and visually stunning. I usually work with JavaScript, React/Redux, and Typescript, but I'm always learning new things and attending courses to improve my skills in this field.
                                         </p>
                                     </div>
                                 </div>
@@ -102,24 +101,24 @@ app.innerHTML = `
                                                 </div>
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        SCSS
+                                                        Less
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        LESS
+                                                        Scss
                                                     </p>
                                                 </div>
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        JS
+                                                        JavaScript
                                                     </p>
                                                 </div>
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        jQuery
+                                                        Jquery
                                                     </p>
                                                 </div>
                                             </div>
@@ -136,24 +135,19 @@ app.innerHTML = `
                                                 </div>
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        Vue.js
+                                                        TypeScript
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        Angular
+                                                        Gulp
                                                     </p>
                                                 </div>
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        Php
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        MySQL
+                                                        Webpack
                                                     </p>
                                                 </div>
                                             </div>
@@ -186,7 +180,7 @@ app.innerHTML = `
                                         <div class="resume__column section__column">
                                             <div class="resume__column-content section__column-content">
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    HTML developer position. Developed internet-shop websites
+                                                    HTML developer
                                                 </p>
                                             </div>
                                         </div>
@@ -207,7 +201,7 @@ app.innerHTML = `
                                         <div class="resume__column section__column">
                                             <div class="resume__column-content section__column-content">
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    HTML developer / Front-end developer position
+                                                    HTML developer / Front-end developer
                                                 </p>
                                             </div>
                                         </div>
@@ -222,8 +216,7 @@ app.innerHTML = `
                                         </h3>
                                     </div>
                                 </div>
-                                <div
-                                    class="resume__column section__column section__column_right section__column_right_m">
+                                <div class="resume__column section__column section__column_right section__column_right_m">
                                     <div class="resume__column-item section__column-item">
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
@@ -290,10 +283,49 @@ app.innerHTML = `
                                     </div>
                                 </div>
                             </div>
+                            <div class="resume__row section__row">
+                                <div class="resume__column section__column section__column_left">
+                                    <div class="resume__column-title section__column-title">
+                                        <h3 class="resume__column-title-text section__column-title-text">
+                                            Languages
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="resume__column section__column section__column_right section__column_right_m">
+                                    <div class="resume__column-item section__column-item">
+                                        <div class="resume__column-row section__column-row">
+                                            <div class="resume__row-item section__row-item section__row-item_left">
+                                                <p class="resume__item-organization section__item-organization">
+                                                    Russian
+                                                </p>
+                                            </div>
+                                            <div class="resume__row-item section__row-item section__row-item_right">
+                                                <p class="resume__item-period section__item-period content__item-period">
+                                                    native
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="resume__column-item section__column-item">
+                                        <div class="resume__column-row section__column-row">
+                                            <div class="resume__row-item section__row-item section__row-item_left">
+                                                <p class="resume__item-organization section__item-organization">
+                                                    English
+                                                </p>
+                                            </div>
+                                            <div class="resume__row-item section__row-item section__row-item_right">
+                                                <p class="resume__item-period section__item-period content__item-period">
+                                                    Intermediate (b2)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="resume__link section__link">
-                        <a href="" class="resume__link-text section__link-text">Download PDF</a>
+                        <a href="https://drive.google.com/file/d/1PXbdS8GHePRLAtgH3smN8NuS1WDuNpY3/view?usp=sharing" class="resume__link-text section__link-text" target="_blank">Download PDF</a>
                     </div>
                 </div>
             </section>
