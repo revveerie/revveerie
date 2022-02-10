@@ -4,7 +4,7 @@ import "./assets/fonts/CocoSharp-ExtraLight.ttf";
 import "./assets/fonts/icons.ttf";
 
 import Alarm from "./assets/images/alarm_pr.webp";
-import Museum from "./assets/images/museum_pr.webp";
+import Crypter from "./assets/images/crypter.png";
 import Music from "./assets/images/music_pr.webp";
 import Space from "./assets/images/space_pr.jpg";
 import Weather from "./assets/images/weather_pr.png";
@@ -339,12 +339,12 @@ app.innerHTML = `
                     <div class="portfolio__content section__content">
                         <div class="portfolio__content-wrapper section__content-wrapper">
                             <div class="portfolio__grid-wrapper">
-                                <a href="#museum" class="portfolio__grid-link">
+                                <a href="#crypter" class="portfolio__grid-link">
                                     <div class="portfolio__grid-item">
-                                        <img src="${Museum}" alt="">
+                                        <img src="${Crypter}" alt="">
                                         <div class="portfolio__grid-title">
-                                            <p class="portfolio__grid-title-text">Virtual museum</p>
-                                            <p class="portfolio__grid-description-text">Virtual museum site concept</p>
+                                            <p class="portfolio__grid-title-text">Crypter</p>
+                                            <p class="portfolio__grid-description-text">Cryptocurrency tracker app</p>
                                         </div>
                                     </div>
                                 </a>
@@ -487,7 +487,7 @@ app.innerHTML = `
             </footer>
         </main>
     </div>
-    <div class="popup museum" id="museum">
+    <div class="popup crypter" id="crypter">
         <div class="popup__body">
             <a href="#" class="popup__close close-popup">
                 <span></span>
@@ -497,12 +497,12 @@ app.innerHTML = `
                 <div class="popup__content section">
                     <div class="popup__title section__title title">
                         <h2 class="popup__title-text section__title-text title__text">
-                            Virtual museum
+                            Crypter
                         </h2>
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${Museum}" alt="">
+                            <img src="${Crypter}" alt="Crypter">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -518,8 +518,7 @@ app.innerHTML = `
                                 <div class="popup__column section__column section__column_right">
                                     <div class="popup__column-content section__column-content">
                                         <p class="popup__column-content-text section__column-content-text content__column-content-text">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur landitiis accusantium 
-                                            reiciendis voluptas ad, illo quas animi illum reprehenderit non deleniti.
+                                            Crypter is a straightforward app that provides thorough information on the most popular coins.
                                         </p>
                                     </div>
                                 </div>
@@ -541,11 +540,8 @@ app.innerHTML = `
                                                         HTML
                                                     </p>
                                                 </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        CSS
-                                                    </p>
-                                                </div>
+                                            </div>
+                                            <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
                                                         SCSS
@@ -555,51 +551,14 @@ app.innerHTML = `
                                             <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        LESS
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        JS
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        jQuery
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="resume__skill-column">
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
                                                         React
                                                     </p>
                                                 </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Redux
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Vue.js
-                                                    </p>
-                                                </div>
                                             </div>
                                             <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        Angular
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Php
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        MySQL
+                                                        Webpack
                                                     </p>
                                                 </div>
                                             </div>
@@ -619,13 +578,8 @@ app.innerHTML = `
                                     <div class="popup__column-content section__column-content">
                                         <div class="contacts__network-wrapper section__network-wrapper">
                                             <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
+                                                <a href="https://github.com/vvyysotskaya/crypter" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-github"></i>
-                                                </a>
-                                            </div>
-                                            <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
-                                                    <i class="_icon-global"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -1474,10 +1428,10 @@ function popupOpen(curentPopup) {
     setTimeout(() => {
       curentPopup.classList.add("open");
       curentPopup.classList.add("active");
-      if (document.querySelector(".popup.open").classList.contains("museum")) {
-        document.querySelector(".dot_one").classList.add("_museum");
-        document.querySelector(".dot_two").classList.add("_museum");
-        document.querySelector(".dot_three").classList.add("_museum");
+      if (document.querySelector(".popup.open").classList.contains("crypter")) {
+        document.querySelector(".dot_one").classList.add("_crypter");
+        document.querySelector(".dot_two").classList.add("_crypter");
+        document.querySelector(".dot_three").classList.add("_crypter");
       } else if (document.querySelector(".popup.open").classList.contains("space")) {
         document.querySelector(".dot_one").classList.add("_space");
         document.querySelector(".dot_two").classList.add("_space");
@@ -1509,10 +1463,10 @@ function popupClose(popupActive) {
     document.body.classList.toggle("_lock");
     document.querySelector(".page").classList.toggle("_lock");
     document.querySelector(".header").classList.toggle("_lock");
-    if (document.querySelector(".popup.active").classList.contains("museum")) {
-      document.querySelector(".dot_one").classList.remove("_museum");
-      document.querySelector(".dot_two").classList.remove("_museum");
-      document.querySelector(".dot_three").classList.remove("_museum");
+    if (document.querySelector(".popup.active").classList.contains("crypter")) {
+      document.querySelector(".dot_one").classList.remove("_crypter");
+      document.querySelector(".dot_two").classList.remove("_crypter");
+      document.querySelector(".dot_three").classList.remove("_crypter");
       document.querySelector(".popup.active").classList.remove("active");
     } else if (document.querySelector(".popup.active").classList.contains("space")) {
       document.querySelector(".dot_one").classList.remove("_space");

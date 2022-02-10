@@ -25,8 +25,8 @@
   &_one {
     background: $mainPink;
     transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
-    &._museum {
-      background: #772d22;
+    &._crypter {
+      background: #53B9EA;
     }
     &._space {
       background: #2b1d5a;
@@ -48,7 +48,7 @@
     background: $mainBlue;
     transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
     animation-delay: -7s;
-    &._museum {
+    &._crypter {
       background: #edeef3;
     }
     &._space {
@@ -71,7 +71,7 @@
     background: $mainGreen;
     transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
     animation-delay: -14s;
-    &._museum {
+    &._crypter {
       background: #dccfbb;
     }
     &._space {
