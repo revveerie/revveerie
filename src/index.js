@@ -6,7 +6,7 @@ import "./assets/fonts/icons.ttf";
 import Alarm from "./assets/images/alarm_pr.webp";
 import Crypter from "./assets/images/crypter.png";
 import Music from "./assets/images/music_pr.webp";
-import Space from "./assets/images/space_pr.jpg";
+import TheWeather from "./assets/images/the-weather.jpg";
 import Weather from "./assets/images/weather_pr.png";
 import Photo from "./assets/images/photo_pr.jpg";
 
@@ -348,12 +348,12 @@ app.innerHTML = `
                                         </div>
                                     </div>
                                 </a>
-                                <a href="#space" class="portfolio__grid-link">
+                                <a href="#the-weather" class="portfolio__grid-link">
                                     <div class="portfolio__grid-item">
-                                        <img src="${Space}" alt="">
+                                        <img src="${TheWeather}" alt="">
                                         <div class="portfolio__grid-title">
-                                            <p class="portfolio__grid-title-text">Blue dot</p>
-                                            <p class="portfolio__grid-description-text">Space trip app</p>
+                                            <p class="portfolio__grid-title-text">the.weather</p>
+                                            <p class="portfolio__grid-description-text">Weather app</p>
                                         </div>
                                     </div>
                                 </a>
@@ -582,6 +582,11 @@ app.innerHTML = `
                                                     <i class="_icon-github"></i>
                                                 </a>
                                             </div>
+                                            <div class="contacts__network section__network">
+                                                <a href="https://vvyysotskaya-crypter.netlify.app" class="contacts__network-link section__network-link" target="_blank">
+                                                    <i class="_icon-global"></i>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -592,7 +597,7 @@ app.innerHTML = `
             </div>
         </div>
     </div>
-    <div class="popup space" id="space">
+    <div class="popup the-weather" id="the-weather">
         <div class="popup__body">
             <a href="#" class="popup__close close-popup">
                 <span></span>
@@ -607,7 +612,7 @@ app.innerHTML = `
                     </div>
                     <div class="popup__photo-wrapper">
                         <div class="popup__photo">
-                            <img src="${Space}" alt="">
+                            <img src="${TheWeather}" alt="">
                         </div>
                     </div>
                     <div class="popup__content section__content">
@@ -623,8 +628,7 @@ app.innerHTML = `
                                 <div class="popup__column section__column section__column_right">
                                     <div class="popup__column-content section__column-content">
                                         <p class="popup__column-content-text section__column-content-text content__column-content-text">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur landitiis accusantium 
-                                            reiciendis voluptas ad, illo quas animi illum reprehenderit non deleniti.
+                                            the.weather is a weather app that simplifies the experience with forecast applications.
                                         </p>
                                     </div>
                                 </div>
@@ -646,11 +650,8 @@ app.innerHTML = `
                                                         HTML
                                                     </p>
                                                 </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        CSS
-                                                    </p>
-                                                </div>
+                                            </div>
+                                            <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
                                                         SCSS
@@ -660,51 +661,14 @@ app.innerHTML = `
                                             <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        LESS
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        JS
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        jQuery
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="resume__skill-column">
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
                                                         React
                                                     </p>
                                                 </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Redux
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Vue.js
-                                                    </p>
-                                                </div>
                                             </div>
                                             <div class="resume__skill-column">
                                                 <div class="resume__skill-item">
                                                     <p class="resume__skill-text">
-                                                        Angular
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Php
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        MySQL
+                                                        Webpack
                                                     </p>
                                                 </div>
                                             </div>
@@ -724,12 +688,12 @@ app.innerHTML = `
                                     <div class="popup__column-content section__column-content">
                                         <div class="contacts__network-wrapper section__network-wrapper">
                                             <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
+                                                <a href="https://github.com/vvyysotskaya/the-weather" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-github"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
+                                                <a href="https://vvyysotskaya-the-weather.netlify.app" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-global"></i>
                                                 </a>
                                             </div>
@@ -1432,10 +1396,10 @@ function popupOpen(curentPopup) {
         document.querySelector(".dot_one").classList.add("_crypter");
         document.querySelector(".dot_two").classList.add("_crypter");
         document.querySelector(".dot_three").classList.add("_crypter");
-      } else if (document.querySelector(".popup.open").classList.contains("space")) {
-        document.querySelector(".dot_one").classList.add("_space");
-        document.querySelector(".dot_two").classList.add("_space");
-        document.querySelector(".dot_three").classList.add("_space");
+      } else if (document.querySelector(".popup.open").classList.contains("the-weather")) {
+        document.querySelector(".dot_one").classList.add("_the-weather");
+        document.querySelector(".dot_two").classList.add("_the-weather");
+        document.querySelector(".dot_three").classList.add("_the-weather");
       } else if (document.querySelector(".popup.open").classList.contains("music")) {
         document.querySelector(".dot_one").classList.add("_music");
         document.querySelector(".dot_two").classList.add("_music");
@@ -1468,10 +1432,10 @@ function popupClose(popupActive) {
       document.querySelector(".dot_two").classList.remove("_crypter");
       document.querySelector(".dot_three").classList.remove("_crypter");
       document.querySelector(".popup.active").classList.remove("active");
-    } else if (document.querySelector(".popup.active").classList.contains("space")) {
-      document.querySelector(".dot_one").classList.remove("_space");
-      document.querySelector(".dot_two").classList.remove("_space");
-      document.querySelector(".dot_three").classList.remove("_space");
+    } else if (document.querySelector(".popup.active").classList.contains("the-weather")) {
+      document.querySelector(".dot_one").classList.remove("_the-weather");
+      document.querySelector(".dot_two").classList.remove("_the-weather");
+      document.querySelector(".dot_three").classList.remove("_the-weather");
       document.querySelector(".popup.active").classList.remove("active");
     } else if (document.querySelector(".popup.active").classList.contains("music")) {
       document.querySelector(".dot_one").classList.remove("_music");
