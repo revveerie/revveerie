@@ -19,4 +19,4 @@
 
 #### 📧 E-mail: vvyysotskaya@gmail.com
 #### 💬 Telegram: https://t.me/vvyysotskaya
-#### 👀 Portfolio: https://vvyysotskaya.github.io/vvyysotskaya/dist/
+#### 👀 Portfolio: https://vvyysotskaya.netlify.app
