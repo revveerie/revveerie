@@ -216,7 +216,7 @@ app.innerHTML = `
                                         </h3>
                                     </div>
                                 </div>
-                                <div class="resume__column section__column section__column_right section__column_right_m">
+                                <div class="resume__column section__column section__column_right">
                                     <div class="resume__column-item section__column-item">
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
@@ -291,7 +291,7 @@ app.innerHTML = `
                                         </h3>
                                     </div>
                                 </div>
-                                <div class="resume__column section__column section__column_right section__column_right_m">
+                                <div class="resume__column section__column section__column_right">
                                     <div class="resume__column-item section__column-item">
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
@@ -484,7 +484,7 @@ app.innerHTML = `
                     <div class="footer__row">
                         <div class="footer__item">
                             <p class="footer__item-text">
-                                &copy; Victoria Vysotskaya, 2021
+                                &copy; Victoria Vysotskaya, 2022
                             </p>
                         </div>
                     </div>
@@ -612,7 +612,7 @@ app.innerHTML = `
                 <div class="popup__content section">
                     <div class="popup__title section__title title">
                         <h2 class="popup__title-text section__title-text title__text">
-                            Blue dot
+                            the.weather
                         </h2>
                     </div>
                     <div class="popup__photo-wrapper">
