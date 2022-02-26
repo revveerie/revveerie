@@ -180,7 +180,7 @@ app.innerHTML = `
                                         <div class="resume__column section__column">
                                             <div class="resume__column-content section__column-content">
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    HTML developer
+                                                    Front-end developer
                                                 </p>
                                             </div>
                                         </div>
@@ -201,7 +201,7 @@ app.innerHTML = `
                                         <div class="resume__column section__column">
                                             <div class="resume__column-content section__column-content">
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    HTML developer / Front-end developer
+                                                    Front-end developer
                                                 </p>
                                             </div>
                                         </div>
@@ -315,8 +315,13 @@ app.innerHTML = `
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
                                                 <p class="resume__item-period section__item-period content__item-period">
-                                                    Intermediate (b2)
+                                                    Advanced (c2)
                                                 </p>
+                                            </div>
+                                        </div>
+                                        <div class="resume__column section__column">
+                                            <div class="resume__column-content section__column-content">
+                                                <a href="https://drive.google.com/file/d/1_B1U-iz_Zm1YSMqRGq6mRW_Jt00fiV2i/view?usp=sharing" class="sertificate-link" target="_blank">(see sertificate)</a>
                                             </div>
                                         </div>
                                     </div>
@@ -325,7 +330,7 @@ app.innerHTML = `
                         </div>
                     </div>
                     <div class="resume__link section__link">
-                        <a href="https://drive.google.com/file/d/1PXbdS8GHePRLAtgH3smN8NuS1WDuNpY3/view?usp=sharing" class="resume__link-text section__link-text" target="_blank">Download PDF</a>
+                        <a href="https://drive.google.com/file/d/1Z28cX_lSx9ydwWYSwi9_O3a-0AYwaV5W/view?usp=sharing" class="resume__link-text section__link-text" target="_blank">Download PDF</a>
                     </div>
                 </div>
             </section>
