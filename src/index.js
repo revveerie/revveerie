@@ -168,7 +168,7 @@ app.innerHTML = `
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
                                                 <p class="resume__item-organization section__item-organization">
-                                                    The Internet Marleting Center
+                                                    The Internet Marketing Center
                                                 </p>
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
@@ -221,7 +221,7 @@ app.innerHTML = `
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
                                                 <p class="resume__item-organization section__item-organization">
-                                                    RS School
+                                                    RS Pre School
                                                 </p>
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
@@ -235,6 +235,7 @@ app.innerHTML = `
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
                                                     Front-end development course
                                                 </p>
+                                                <a href="https://drive.google.com/file/d/1xvGYPDfOPSunNcFEh1m_sEr3nkepVVJe/view?usp=sharing" class="sertificate-link" target="_blank">(see sertificate)</a>
                                             </div>
                                         </div>
                                     </div>
