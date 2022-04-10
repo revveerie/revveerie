@@ -1,4 +1,5 @@
 import "./styles/index.scss";
+import "./styles/light-theme.scss";
 
 import "./assets/fonts/CocoSharp-ExtraLight.ttf";
 import "./assets/fonts/icons.ttf";
@@ -17,8 +18,10 @@ app.innerHTML = `
         <header class="header _lock">
             <div class="container">
                 <div class="header__menu menu">
+                    <div class="header__theme">
+                        <div class="inticator"></div>
+                    </div>
                     <div class="menu__icon icon-menu">
-                        <span></span>
                         <span></span>
                         <span></span>
                     </div>
@@ -87,69 +90,136 @@ app.innerHTML = `
                                 </div>
                                 <div class="resume__column section__column section__column_right">
                                     <div class="resume__column-content section__column-content">
-                                        <div class="resume__skill-row">
-                                            <div class="resume__skill-column">
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        HTML
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        CSS
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Less
-                                                    </p>
-                                                </div>
+                                        <div class="resume__skill-grid resume__skill-grid_m">
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    HTML
+                                                </p>
                                             </div>
-                                            <div class="resume__skill-column">
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Scss
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        JavaScript
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Jquery
-                                                    </p>
-                                                </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    CSS
+                                                </p>
                                             </div>
-                                            <div class="resume__skill-column">
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        React
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Redux
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        TypeScript
-                                                    </p>
-                                                </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Less
+                                                </p>
                                             </div>
-                                            <div class="resume__skill-column">
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Gulp
-                                                    </p>
-                                                </div>
-                                                <div class="resume__skill-item">
-                                                    <p class="resume__skill-text">
-                                                        Webpack
-                                                    </p>
-                                                </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Scss
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    JavaScript
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Jquery
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    React
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Redux
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    TypeScript
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Gulp
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Webpack
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resume__row section__row">
+                                <div class="resume__column section__column section__column_left">
+                                    <div class="resume__column-title section__column-title">
+                                        <h3 class="resume__column-title-text section__column-title-text">
+                                            Soft skills
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="resume__column section__column section__column_right">
+                                    <div class="resume__column-content section__column-content">
+                                        <div class="resume__skill-grid">
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Adaptability
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Organization
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Open-mindedness
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Patience
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Problem solving
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Dependability
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Teamwork
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Active listening
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Critical thinkig
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Persistence
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Empathy
+                                                </p>
+                                            </div>
+                                            <div class="resume__skill-item">
+                                                <p class="resume__skill-text">
+                                                    Desire to learn
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -221,12 +291,33 @@ app.innerHTML = `
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
                                                 <p class="resume__item-organization section__item-organization">
+                                                    RS School
+                                                </p>
+                                            </div>
+                                            <div class="resume__row-item section__row-item section__row-item_right">
+                                                <p class="resume__item-period section__item-period content__item-period">
+                                                    march 2022 - present
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="resume__column section__column">
+                                            <div class="resume__column-content section__column-content">
+                                                <p class="resume__column-content-text section__column-content-text content__column-content-text">
+                                                    Front-end development course
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="resume__column-item section__column-item">
+                                        <div class="resume__column-row section__column-row">
+                                            <div class="resume__row-item section__row-item section__row-item_left">
+                                                <p class="resume__item-organization section__item-organization">
                                                     RS Pre School
                                                 </p>
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
                                                 <p class="resume__item-period section__item-period content__item-period">
-                                                    december 2021 - july 2022
+                                                    december 2021 - march 2022
                                                 </p>
                                             </div>
                                         </div>
@@ -316,7 +407,7 @@ app.innerHTML = `
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
                                                 <p class="resume__item-period section__item-period content__item-period">
-                                                    Advanced (c2)
+                                                    Advanced (c1)
                                                 </p>
                                             </div>
                                         </div>
@@ -417,6 +508,23 @@ app.innerHTML = `
                                 <div class="contacts__column section__column contacts__column_left section__column_left">
                                     <div class="contacts__column-title section__column-title">
                                         <h3 class="contacts__column-title-text section__column-title-text">
+                                            Location
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div
+                                    class="contacts__column section__column contacts__column_right section__column_right">
+                                    <div class="contacts__column-content section__column-content">
+                                        <div class="contacts__column-content-link section__column-content-link">
+                                            <p class="contacts__column-content-info">Minsk, Belarus</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contacts__row section__row">
+                                <div class="contacts__column section__column contacts__column_left section__column_left">
+                                    <div class="contacts__column-title section__column-title">
+                                        <h3 class="contacts__column-title-text section__column-title-text">
                                             E-mail
                                         </h3>
                                     </div>
@@ -454,21 +562,21 @@ app.innerHTML = `
                                         </h3>
                                     </div>
                                 </div>
-                                <div class="contacts__column section__column contacts__column_right section__column_right section__column_right_m">
+                                <div class="contacts__column section__column contacts__column_right section__column_right">
                                     <div class="contacts__column-content section__column-content">
                                         <div class="contacts__network-wrapper section__network-wrapper">
                                             <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
+                                                <a href="https://github.com/vvyysotskaya" class="contacts__network-link section__network-link">
                                                     <i class="_icon-github"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
+                                                <a href="www.linkedin.com/in/vvyysotskaya" class="contacts__network-link section__network-link">
                                                     <i class="_icon-linkedin"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="#" class="contacts__network-link section__network-link">
+                                                <a href="https://t.me/vvyysotskaya" class="contacts__network-link section__network-link">
                                                     <i class="_icon-telegram"></i>
                                                 </a>
                                             </div>
@@ -1327,6 +1435,10 @@ window.onload = function () {
     page.classList.remove("_lock");
     header.classList.remove("_lock");
   }, 1000);
+  if (localStorage.getItem('light-theme') !== null) {
+    btnTheme.classList.toggle('active');
+    body.classList.toggle('light-theme');
+    }
 };
 
 let iconMenu = document.querySelector(".icon-menu"),
@@ -1466,3 +1578,20 @@ function popupClose(popupActive) {
     }
   }, 2000);
 }
+
+let btnTheme = document.querySelector('.header__theme');
+
+btnTheme.addEventListener('click', function() {
+    btnTheme.classList.toggle('active');
+    body.classList.toggle('light-theme');
+    page.style.transition = "none";
+    setTimeout (() => {
+        page.style.transition = "0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03)";
+    }, 1000)
+
+    if (localStorage.getItem('light-theme') !== null) {
+        localStorage.removeItem('light-theme');
+    } else {
+        localStorage.setItem('light-theme', 1);
+    }
+})

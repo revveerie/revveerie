@@ -1,8 +1,31 @@
 .resume {
   &__skill-row {
     display: flex;
+    justify-content: space-between;
     @media (max-width: 600px) {
       flex-wrap: wrap;
+    }
+    &_m {
+      .resume__skill-column {
+        flex: 0 1 33.333%;
+      }
+    }
+  }
+  &__skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    
+    @media(max-width: 595px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media(max-width: 380px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &_m {
+      @media(max-width: 380px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   }
   &__skill-column {

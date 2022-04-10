@@ -14,6 +14,7 @@ body {
   font-family: "CocoSharp-ExtraLight", sans-serif;
   font-size: 18px;
   text-transform: lowercase;
+  transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
   @media (max-width: 480px) {
     font-size: 17px;
   }
@@ -24,7 +25,6 @@ body {
 .page {
   opacity: 1;
   visibility: visible;
-  transition-delay: 0.4s;
   transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
   &._lock {
     opacity: 0;
@@ -267,3 +267,4 @@ img {
 @import "./popup.scss";
 @import "./contacts.scss";
 @import "./footer.scss";
+@import "./light-theme.scss";
