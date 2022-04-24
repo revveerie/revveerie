@@ -571,7 +571,7 @@ app.innerHTML = `
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="www.linkedin.com/in/vvyysotskaya" class="contacts__network-link section__network-link">
+                                                <a href="https://www.linkedin.com/in/vvyysotskaya/" class="contacts__network-link section__network-link">
                                                     <i class="_icon-linkedin"></i>
                                                 </a>
                                             </div>
@@ -1583,11 +1583,15 @@ let btnTheme = document.querySelector('.header__theme');
 
 btnTheme.addEventListener('click', function() {
     btnTheme.classList.toggle('active');
-    body.classList.toggle('light-theme');
-    page.style.transition = "none";
-    setTimeout (() => {
-        page.style.transition = "0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03)";
-    }, 1000)
+    page.classList.add("_lock");
+
+    setTimeout(() => {
+        body.classList.toggle('light-theme');
+    }, 1000);
+
+    setTimeout(() => {
+        page.classList.remove("_lock");
+    }, 2500);
 
     if (localStorage.getItem('light-theme') !== null) {
         localStorage.removeItem('light-theme');

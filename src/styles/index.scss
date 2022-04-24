@@ -14,7 +14,7 @@ body {
   font-family: "CocoSharp-ExtraLight", sans-serif;
   font-size: 18px;
   text-transform: lowercase;
-  transition: 0.7s cubic-bezier(0.79, 0.36, 0.29, 1.03);
+  transition: 1s cubic-bezier(0.79, 0.36, 0.29, 1.03);
   @media (max-width: 480px) {
     font-size: 17px;
   }
