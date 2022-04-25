@@ -1,0 +1,38 @@
+[
+    {
+        "id": "project1",
+        "title": "Crypter",
+        "subtitle": "Cryptocurrency tracker app",
+        "img": "https://raw.githubusercontent.com/vvyysotskaya/vvyysotskaya/main/src/assets/images/crypter.png",
+        "description": "Crypter is a straightforward app that provides thorough information on the most popular coins.",
+        "technologies": [
+            "HTML",
+            "SASS",
+            "React",
+            "Webpack"
+        ],
+        "source": "https://github.com/vvyysotskaya/crypter",
+        "deploy": "https://vvyysotskaya-crypter.netlify.app/",
+        "dotOne": "#53B9EA",
+        "dotTwo": "#edeef3",
+        "dotThree": "#dccfbb"
+    },
+    {
+        "id": "project2",
+        "title": "the.weather",
+        "subtitle": "Weather app",
+        "img": "https://raw.githubusercontent.com/vvyysotskaya/vvyysotskaya/main/src/assets/images/the-weather.jpg",
+        "description": "the.weather is a weather app that simplifies the experience with forecast applications.",
+        "technologies": [
+            "HTML",
+            "SASS",
+            "React",
+            "Webpack"
+        ],
+        "source": "https://github.com/vvyysotskaya/the-weather",
+        "deploy": "https://vvyysotskaya-the-weather.netlify.app/",
+        "dotOne": "#2b1d5a",
+        "dotTwo": "#4c1c46",
+        "dotThree": "#392b3b"
+    }
+]

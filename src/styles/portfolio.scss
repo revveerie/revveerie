@@ -76,6 +76,7 @@
     }
   }
   &__grid-link {
+    cursor: pointer;
     &:nth-child(1) {
       grid-column: 1/3;
       grid-row: 1/3;

@@ -25,70 +25,16 @@
   &_one {
     background: $mainPink;
     transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
-    &._crypter {
-      background: #53B9EA;
-    }
-    &._the-weather {
-      background: #2b1d5a;
-    }
-    &._music {
-      background: #2b4f60;
-    }
-    &._photo {
-      background: #c6cccc;
-    }
-    &._alarm {
-      background: #e2b8ac;
-    }
-    &._weather {
-      background: #dad37b;
-    }
   }
   &_two {
     background: $mainBlue;
     transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
     animation-delay: -7s;
-    &._crypter {
-      background: #edeef3;
-    }
-    &._the-weather {
-      background: #4c1c46;
-    }
-    &._music {
-      background: #bdc7c9;
-    }
-    &._photo {
-      background: #444354;
-    }
-    &._alarm {
-      background: #919f89;
-    }
-    &._weather {
-      background: #b2191c;
-    }
   }
   &_three {
     background: $mainGreen;
     transition: 0.7s cubic-bezier(0.79, 0.07, 0.43, 0.86);
     animation-delay: -14s;
-    &._crypter {
-      background: #dccfbb;
-    }
-    &._the-weather {
-      background: #392b3b;
-    }
-    &._music {
-      background: #ead3cb;
-    }
-    &._photo {
-      background: #645954;
-    }
-    &._alarm {
-      background: #cddad8;
-    }
-    &._weather {
-      background: #dfeaec;
-    }
   }
   @media (max-width: 480px) {
     --size: 500px;
