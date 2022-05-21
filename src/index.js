@@ -504,17 +504,17 @@ app.innerHTML = `
                                     <div class="contacts__column-content section__column-content">
                                         <div class="contacts__network-wrapper section__network-wrapper">
                                             <div class="contacts__network section__network">
-                                                <a href="https://github.com/vvyysotskaya" class="contacts__network-link section__network-link">
+                                                <a href="https://github.com/vvyysotskaya" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-github"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="https://www.linkedin.com/in/vvyysotskaya/" class="contacts__network-link section__network-link">
+                                                <a href="https://www.linkedin.com/in/vvyysotskaya/" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-linkedin"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="https://t.me/vvyysotskaya" class="contacts__network-link section__network-link">
+                                                <a href="https://t.me/vvyysotskaya" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-telegram"></i>
                                                 </a>
                                             </div>
