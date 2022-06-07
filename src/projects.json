@@ -12,7 +12,7 @@
             "Webpack"
         ],
         "source": "https://github.com/vvyysotskaya/crypter",
-        "deploy": "https://vvyysotskaya-crypter.netlify.app/",
+        "deploy": "https://vvyysotskaya-crypter.herokuapp.com/",
         "dotOne": "#53B9EA",
         "dotTwo": "#edeef3",
         "dotThree": "#dccfbb"
