@@ -34,5 +34,23 @@
         "dotOne": "#2b1d5a",
         "dotTwo": "#4c1c46",
         "dotThree": "#392b3b"
+    },
+    {
+        "id": "project3",
+        "title": "Spotify clone",
+        "subtitle": "Music app",
+        "img": "https://raw.githubusercontent.com/vvyysotskaya/vvyysotskaya/main/src/assets/images/spotify-clone.png",
+        "description": "Redisigned spotify clone",
+        "technologies": [
+            "HTML",
+            "SASS",
+            "React",
+            "Webpack"
+        ],
+        "source": "https://github.com/vvyysotskaya/spotify-clone",
+        "deploy": "#",
+        "dotOne": "#2fc680",
+        "dotTwo": "#6e6e6e",
+        "dotThree": "#b2b2b2"
     }
 ]
