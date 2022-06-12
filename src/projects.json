@@ -48,7 +48,7 @@
             "Webpack"
         ],
         "source": "https://github.com/vvyysotskaya/spotify-clone",
-        "deploy": "#",
+        "deploy": "https://vvyysotskaya-spotify-clone.netlify.app/",
         "dotOne": "#2fc680",
         "dotTwo": "#6e6e6e",
         "dotThree": "#b2b2b2"
