@@ -11,8 +11,8 @@
             "React",
             "Webpack"
         ],
-        "source": "https://github.com/vvyysotskaya/crypter",
-        "deploy": "https://vvyysotskaya-crypter.herokuapp.com/",
+        "source": "https://github.com/revveerie/crypter",
+        "deploy": "https://revveerie-crypter.netlify.app/",
         "dotOne": "#53B9EA",
         "dotTwo": "#edeef3",
         "dotThree": "#dccfbb"
@@ -29,8 +29,8 @@
             "React",
             "Webpack"
         ],
-        "source": "https://github.com/vvyysotskaya/the-weather",
-        "deploy": "https://vvyysotskaya-the-weather.netlify.app/",
+        "source": "https://github.com/revveerie/the-weather",
+        "deploy": "https://revveerie-the-weather.netlify.app/",
         "dotOne": "#2b1d5a",
         "dotTwo": "#4c1c46",
         "dotThree": "#392b3b"
@@ -47,8 +47,8 @@
             "React",
             "Webpack"
         ],
-        "source": "https://github.com/vvyysotskaya/spotify-clone",
-        "deploy": "https://vvyysotskaya-spotify-clone.netlify.app/",
+        "source": "https://github.com/revveerie/spotify-clone",
+        "deploy": "https://revveerie-spotify-clone.netlify.app/",
         "dotOne": "#2fc680",
         "dotTwo": "#6e6e6e",
         "dotThree": "#b2b2b2"

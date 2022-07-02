@@ -37,7 +37,7 @@ app.innerHTML = `
                     <div class="main-screen__title-wrapper">
                         <div class="main-screen__title">
                             <h1 class="main-screen__title-text">
-                                Victoria Vysotskaya
+                                Victoria Khmelnitskaya
                             </h1>
                         </div>
                         <div class="main-screen__subtitle">
@@ -248,27 +248,6 @@ app.innerHTML = `
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="resume__column-item section__column-item">
-                                        <div class="resume__column-row section__column-row">
-                                            <div class="resume__row-item section__row-item section__row-item_left">
-                                                <p class="resume__item-organization section__item-organization">
-                                                    Freelance
-                                                </p>
-                                            </div>
-                                            <div class="resume__row-item section__row-item section__row-item_right">
-                                                <p class="resume__item-period section__item-period content__item-period">
-                                                    august 2021 - present
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="resume__column section__column">
-                                            <div class="resume__column-content section__column-content">
-                                                <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    Front-end developer
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="resume__row section__row">
@@ -280,49 +259,6 @@ app.innerHTML = `
                                     </div>
                                 </div>
                                 <div class="resume__column section__column section__column_right">
-                                    <div class="resume__column-item section__column-item">
-                                        <div class="resume__column-row section__column-row">
-                                            <div class="resume__row-item section__row-item section__row-item_left">
-                                                <p class="resume__item-organization section__item-organization">
-                                                    RS School
-                                                </p>
-                                            </div>
-                                            <div class="resume__row-item section__row-item section__row-item_right">
-                                                <p class="resume__item-period section__item-period content__item-period">
-                                                    march 2022 - present
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="resume__column section__column">
-                                            <div class="resume__column-content section__column-content">
-                                                <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    Front-end development course
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="resume__column-item section__column-item">
-                                        <div class="resume__column-row section__column-row">
-                                            <div class="resume__row-item section__row-item section__row-item_left">
-                                                <p class="resume__item-organization section__item-organization">
-                                                    RS Pre School
-                                                </p>
-                                            </div>
-                                            <div class="resume__row-item section__row-item section__row-item_right">
-                                                <p class="resume__item-period section__item-period content__item-period">
-                                                    december 2021 - march 2022
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="resume__column section__column">
-                                            <div class="resume__column-content section__column-content">
-                                                <p class="resume__column-content-text section__column-content-text content__column-content-text">
-                                                    Front-end development course
-                                                </p>
-                                                <a href="https://drive.google.com/file/d/1xvGYPDfOPSunNcFEh1m_sEr3nkepVVJe/view?usp=sharing" class="sertificate-link" target="_blank">(see sertificate)</a>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="resume__column-item section__column-item">
                                         <div class="resume__column-row section__column-row">
                                             <div class="resume__row-item section__row-item section__row-item_left">
@@ -341,7 +277,7 @@ app.innerHTML = `
                                                 <p class="resume__column-content-text section__column-content-text content__column-content-text">
                                                     Front-end development course
                                                 </p>
-                                                <a href="https://drive.google.com/file/d/1uTGEBPtdflUw_zA2vtZ0mRseDJGg9w7O/view" class="sertificate-link" target="_blank">(see sertificate)</a>
+                                                <a href="https://drive.google.com/file/d/1qfPyAeV-XOPy8Twsi2F4N6TI8qR3Rdqg/view?usp=sharing" class="sertificate-link" target="_blank">(see sertificate)</a>
                                             </div>
                                         </div>
                                     </div>
@@ -400,13 +336,13 @@ app.innerHTML = `
                                             </div>
                                             <div class="resume__row-item section__row-item section__row-item_right">
                                                 <p class="resume__item-period section__item-period content__item-period">
-                                                    Advanced (c1)
+                                                    Upper intermediate (b2)
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="resume__column section__column">
                                             <div class="resume__column-content section__column-content">
-                                                <a href="https://drive.google.com/file/d/1_B1U-iz_Zm1YSMqRGq6mRW_Jt00fiV2i/view?usp=sharing" class="sertificate-link" target="_blank">(see sertificate)</a>
+                                                <a href="https://drive.google.com/file/d/10Q3j22F32rB7OBdaOQFP853efDGVw9gU/view?usp=sharing" class="sertificate-link" target="_blank">(see sertificate)</a>
                                             </div>
                                         </div>
                                     </div>
@@ -415,7 +351,7 @@ app.innerHTML = `
                         </div>
                     </div>
                     <div class="resume__link section__link">
-                        <a href="https://drive.google.com/file/d/1Z28cX_lSx9ydwWYSwi9_O3a-0AYwaV5W/view?usp=sharing" class="resume__link-text section__link-text" target="_blank">Download PDF</a>
+                        <a href="https://drive.google.com/file/d/1BQ8YkPYjzbh25_6JyAQrICrbide5vEYo/view?usp=sharing" class="resume__link-text section__link-text" target="_blank">Download PDF</a>
                     </div>
                 </div>
             </section>
@@ -471,7 +407,7 @@ app.innerHTML = `
                                     class="contacts__column section__column contacts__column_right section__column_right">
                                     <div class="contacts__column-content section__column-content">
                                         <div class="contacts__column-content-link section__column-content-link">
-                                            <a href="mailto: vvyysotskaya@gmail.com" class="contacts__column-content-email">vvyysotskaya@gmail.com</a>
+                                            <a href="mailto: revveerie@gmail.com" class="contacts__column-content-email">revveerie@gmail.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -504,17 +440,17 @@ app.innerHTML = `
                                     <div class="contacts__column-content section__column-content">
                                         <div class="contacts__network-wrapper section__network-wrapper">
                                             <div class="contacts__network section__network">
-                                                <a href="https://github.com/vvyysotskaya" class="contacts__network-link section__network-link" target="_blank">
+                                                <a href="https://github.com/revveerie" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-github"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="https://www.linkedin.com/in/vvyysotskaya/" class="contacts__network-link section__network-link" target="_blank">
+                                                <a href="https://www.linkedin.com/in/revveerie/" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-linkedin"></i>
                                                 </a>
                                             </div>
                                             <div class="contacts__network section__network">
-                                                <a href="https://t.me/vvyysotskaya" class="contacts__network-link section__network-link" target="_blank">
+                                                <a href="https://t.me/revveerie" class="contacts__network-link section__network-link" target="_blank">
                                                     <i class="_icon-telegram"></i>
                                                 </a>
                                             </div>
@@ -531,7 +467,7 @@ app.innerHTML = `
                     <div class="footer__row">
                         <div class="footer__item">
                             <p class="footer__item-text">
-                                &copy; Victoria Vysotskaya, 2022
+                                &copy; Victoria K, 2022
                             </p>
                         </div>
                     </div>
