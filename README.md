@@ -16,4 +16,4 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/webpack/webpack-plain.svg" height=40>
 </div>
 
-## 👁️ Checkout my [portfolio](https://vvyysotskaya.netlify.app)
+## 👁️ Checkout my [portfolio](https://revveerie.netlify.app)
