@@ -41,8 +41,8 @@
       }
     }
     @media(max-width: 768px) {
-      top: 22px;
-      right: 100px;
+      top: 13px;
+      right: 80px;
     }
   }
 }
@@ -107,6 +107,11 @@
     &:last-child {
       bottom: 2px;
     }
+  }
+  @media(max-width: 768px) {
+    top: 15px;
+    right: 15px;
+    width: 40px;
   }
   &._menu-active {
     opacity: 1;

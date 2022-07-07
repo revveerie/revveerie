@@ -467,7 +467,7 @@ app.innerHTML = `
                     <div class="footer__row">
                         <div class="footer__item">
                             <p class="footer__item-text">
-                                &copy; Victoria K, 2022
+                                &copy; Victoria K., 2022
                             </p>
                         </div>
                     </div>

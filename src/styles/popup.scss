@@ -17,7 +17,7 @@
 }
 .popup__close {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 40px;
   right: 30px;
   height: 18px;
@@ -40,6 +40,11 @@
     &:last-child {
       transform: rotate(45deg);
     }
+  }
+  @media(max-width: 768px) {
+    right: 15px;
+    top: 30px;
+    width: 35px;
   }
 }
 .popup__photo-wrapper {
